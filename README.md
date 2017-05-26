@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## Welcome to Bubble-Sort
 
-You can use the [editor on GitHub](https://github.com/codebreaker003/Bubble-Sort/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Visualization of this algorithm
 
-### Markdown
+Visualizing this algorithm is a great way to start
+![Image](https://he-s3.s3.amazonaws.com/media/uploads/2682167.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Working of this algorithm
 
-```markdown
-Syntax highlighted code block
+1. Start iterating over the array, take two elements from the begining
+2. Check whether, they are in order or not. If not then swap them else leave them as they were
 
-# Header 1
-## Header 2
-### Header 3
+#### NOTE: Repeat the above steps (n-1) times
 
-- Bulleted
-- List
+### Complexity
 
-1. Numbered
-2. List
+The complexity of bubble sort algorithms is O(n^2) in both worst and average cases.
 
-**Bold** and _Italic_ and `Code` text
+### End Notes
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/codebreaker003/Bubble-Sort/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Refer to the comments in the program and debug in your IDE for better understanding.
